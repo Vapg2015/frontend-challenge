@@ -8,7 +8,7 @@ import { formatETH } from '@/utils/format';
 
 export function HomePage() {
   const search = useSearch({ strict: false }) as any;
-  const navigate = useNavigate({ strict: false }) as any;
+  const navigate = useNavigate();
 
   const queryParams: NFTListParams = {
     search: search.search,

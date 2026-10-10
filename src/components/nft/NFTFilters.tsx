@@ -31,8 +31,8 @@ const SORT_OPTIONS: Array<{ value: string; label: string }> = [
 ];
 
 export function NFTFilters({ collections }: NFTFiltersProps) {
-  const search = useSearch({ from: '/' });
-  const navigate = useNavigate({ from: '/' });
+  const search = useSearch({ strict: false }) as HomeSearch;
+  const navigate = useNavigate();
 
   const [queryDraft, setQueryDraft] = useState(search.search ?? '');
   const [minDraft, setMinDraft] = useState(search.minPrice ?? '');
@@ -45,9 +45,10 @@ export function NFTFilters({ collections }: NFTFiltersProps) {
 
   const update = (updates: Partial<HomeSearch>, replace = false) => {
     navigate({
-      search: (prev) => {
+      to: '.',
+      search: (prev: any) => {
         const next = { ...prev, ...updates, page: undefined };
-        return Object.fromEntries(Object.entries(next).filter(([, v]) => v !== undefined && v !== '')) as HomeSearch;
+        return Object.fromEntries(Object.entries(next).filter(([, v]) => v !== undefined && v !== ''));
       },
       replace,
     });
@@ -74,7 +75,7 @@ export function NFTFilters({ collections }: NFTFiltersProps) {
   );
 
   const clearAll = () =>
-    navigate({ search: search.search ? { search: search.search } : {}, replace: false });
+    navigate({ to: '.', search: search.search ? { search: search.search } : {}, replace: false });
 
   return (
     <div className="space-y-4" role="search" aria-label="Filter NFTs">
