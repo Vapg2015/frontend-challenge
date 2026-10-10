@@ -1,0 +1,213 @@
+.styles {
+  --primary: #D28A4C;
+  --primary-light: #DD9A5F;
+  --primary-dark: #C47B3E;
+  --amber: #E3A44E;
+  --foreground: #F5F1EB;
+  --background-elevated: #FBFBFB;
+  --white: #FFFFFF;
+  --black: #000000;
+  --secondary: #B39463;
+  --surface-card: #241612;
+  --surface-raised: #2F1D15;
+  --ink: #140D0A;
+  --surface-dark: #38220F;
+  --border: #3F2319;
+  --border-soft: #55321F;
+  --gray-light: #EDEDED;
+  --success: #00A66C;
+  --error: #ED1B2E;
+  --coral: #F0805F;
+  --accent: #E89B55;
+  --orange: #FF641A;
+  --facebook: #3B5999;
+  --google-blue: #4086F4;
+  --google-green: #59C36A;
+  --google-yellow: #FFDA2D;
+  --blue: #4175DF;
+  --light-blue: #03A9F4;
+  --indigo: #283593;
+  --var-43-bold: 43px;
+  --var-32-bold: 32px;
+  --var-28-bold: 28px;
+  --var-26-bold: 26px;
+  --var-24-bold: 24px;
+  --var-23-bold: 23px;
+  --var-22-bold: 22px;
+  --var-22-regular: 22px;
+  --var-21-regular: 21px;
+  --var-20-regular---lh-10: 20px;
+  --var-20-medium: 20px;
+  --var-20-bold---lh-16: 20px;
+  --var-19-bold: 19px;
+  --var-18-bold---lh-16: 18px;
+  --var-18-regular: 18px;
+  --var-18-light: 18px;
+  --var-18-bold---lh-24: 18px;
+  --var-18-medium: 18px;
+  --var-17-bold: 17px;
+  --var-17-regular---lh-16: 17px;
+  --var-17-regular---lh-10: 17px;
+  --var-16-bold---lh-auto: 16px;
+  --var-16-regular---lh-auto: 16px;
+  --var-16-medium---lh-auto: 16px;
+  --var-16-bold---lh-20: 16px;
+  --var-16-regular---lh-16: 16px;
+  --var-16-medium---lh-16: 16px;
+  --var-16-bold---lh-16: 16px;
+  --var-16-regular---lh-10: 16px;
+  --var-15-medium: 15px;
+  --var-15-regular---lh-16: 15px;
+  --var-15-regular---lh-40: 15px;
+  --var-15-bold---lh-40: 15px;
+  --var-15-bold---lh-16: 15px;
+  --var-15-regular---lh-15: 15px;
+  --var-15-regular---lh-45: 15px;
+  --var-15-bold---lh-15: 15px;
+  --var-14-bold---lh-auto: 14px;
+  --var-14-medium---lh-16: 14px;
+  --var-14-regular---lh-24: 14px;
+  --var-14-medium---lh-16---ls-0-: 14px;
+  --var-14-regular---lh-22: 14px;
+  --var-14-medium---lh-20: 14px;
+  --var-14-regular---lh-30: 14px;
+  --var-14-regular---lh-16: 14px;
+  --var-14-bold---lh-24: 14px;
+  --var-14-bold---lh-20: 14px;
+  --var-14-bold---lh-16: 14px;
+  --var-14-regular---lh-15: 14px;
+  --var-14-bold---lh-auto---ls-0-: 14px;
+  --var-13-regular---lh-22: 13px;
+  --var-13-regular---lh-16: 13px;
+  --var-13-medium: 13px;
+  --var-12-regular---lh-16: 12px;
+  --var-12-regular---lh-18: 12px;
+  --var-12-bold: 12px;
+  --var-11-medium: 11px;
+  --var-10-medium: 10px;
+  --var-9-bold: 9px;
+}
+
+.default {
+  --primary: #D28A4C;
+  --primary-light: #DD9A5F;
+  --primary-dark: #C47B3E;
+  --amber: #E3A44E;
+  --text-coral: #F0805F;
+  --foreground: #F5F1EB;
+  --background-elevated: #FBFBFB;
+  --white: #FFFFFF;
+  --black: #000000;
+  --secondary: #B39463;
+  --text-muted: #B0916A;
+  --surface-card: #241612;
+  --surface-raised: #2F1D15;
+  --ink: #140D0A;
+  --ink-deep: #0E0907;
+  --ink-soft: #1C110C;
+  --surface-dark: #38220F;
+  --border: #3F2319;
+  --border-soft: #55321F;
+  --gray-light: #EDEDED;
+  --success: #00A66C;
+  --error: #ED1B2E;
+  --orange: #FF641A;
+  --facebook: #3B5999;
+  --google-blue: #4086F4;
+  --google-green: #59C36A;
+  --google-yellow: #FFDA2D;
+  --blue: #4175DF;
+  --light-blue: #03A9F4;
+  --indigo: #283593;
+  --text-primary: #F7F3EC;
+  --text-secondary: #CFB28C;
+  --text-accent: #E89B55;
+}
+
+/* Utility color classes */
+.primary { color: var(--primary); }
+.primary-light { color: var(--primary-light); }
+.primary-dark { color: var(--primary-dark); }
+.amber { color: var(--amber); }
+.text-coral { color: var(--text-coral); }
+.foreground { color: var(--foreground); }
+.background-elevated { color: var(--background-elevated); }
+.white { color: var(--white); }
+.black { color: var(--black); }
+.secondary { color: var(--secondary); }
+.text-muted { color: var(--text-muted); }
+.surface-card { color: var(--surface-card); }
+.surface-raised { color: var(--surface-raised); }
+.ink { color: var(--ink); }
+.ink-deep { color: var(--ink-deep); }
+.ink-soft { color: var(--ink-soft); }
+.surface-dark { color: var(--surface-dark); }
+.border { color: var(--border); }
+.border-soft { color: var(--border-soft); }
+.gray-light { color: var(--gray-light); }
+.success { color: var(--success); }
+.error { color: var(--error); }
+.text-primary { color: var(--text-primary); }
+.text-secondary { color: var(--text-secondary); }
+.text-accent { color: var(--text-accent); }
+
+/* Typography utility classes */
+.var-43-bold { font-size: var(--var-43-bold); line-height: 1.627907; font-weight: 700; }
+.var-32-bold { font-size: var(--var-32-bold); line-height: 0; font-weight: 700; }
+.var-28-bold { font-size: var(--var-28-bold); line-height: 0; font-weight: 700; }
+.var-26-bold { font-size: var(--var-26-bold); line-height: 1.230769; font-weight: 700; }
+.var-24-bold { font-size: var(--var-24-bold); line-height: 0; font-weight: 700; }
+.var-23-bold { font-size: var(--var-23-bold); line-height: 0.695652; font-weight: 700; }
+.var-22-bold { font-size: var(--var-22-bold); line-height: 0.727273; font-weight: 700; }
+.var-22-regular { font-size: var(--var-22-regular); line-height: 1.318182; font-weight: 400; }
+.var-21-regular { font-size: var(--var-21-regular); line-height: 0.761905; font-weight: 400; }
+.var-20-regular---lh-10 { font-size: var(--var-20-regular---lh-10); line-height: 1.4; font-weight: 0.4; }
+.var-20-medium { font-size: var(--var-20-medium); line-height: 0.8; font-weight: 500; }
+.var-20-bold---lh-16 { font-size: var(--var-20-bold---lh-16); line-height: 0.8; font-weight: 700; }
+.var-19-bold { font-size: var(--var-19-bold); line-height: 1.526316; font-weight: 700; }
+.var-18-bold---lh-16 { font-size: var(--var-18-bold---lh-16); line-height: 0.888889; font-weight: 700; }
+.var-18-regular { font-size: var(--var-18-regular); line-height: 0.888889; font-weight: 400; }
+.var-18-light { font-size: var(--var-18-light); line-height: 0.888889; font-weight: 300; }
+.var-18-bold---lh-24 { font-size: var(--var-18-bold---lh-24); line-height: 1.333333; font-weight: 700; }
+.var-18-medium { font-size: var(--var-18-medium); line-height: 1.388889; font-weight: 500; }
+.var-17-bold { font-size: var(--var-17-bold); line-height: 0.941176; font-weight: 700; }
+.var-17-regular---lh-16 { font-size: var(--var-17-regular---lh-16); line-height: 0.941176; font-weight: 400; }
+.var-17-regular---lh-10 { font-size: var(--var-17-regular---lh-10); line-height: 1.411765; font-weight: 400; }
+.var-16-bold---lh-auto { font-size: var(--var-16-bold---lh-auto); line-height: 0; font-weight: 700; }
+.var-16-regular---lh-auto { font-size: var(--var-16-regular---lh-auto); line-height: 0; font-weight: 400; }
+.var-16-medium---lh-auto { font-size: var(--var-16-medium---lh-auto); line-height: 0; font-weight: 500; }
+.var-16-bold---lh-20 { font-size: var(--var-16-bold---lh-20); line-height: 1.25; font-weight: 700; }
+.var-16-regular---lh-16 { font-size: var(--var-16-regular---lh-16); line-height: 1; font-weight: 400; }
+.var-16-medium---lh-16 { font-size: var(--var-16-medium---lh-16); line-height: 1; font-weight: 500; }
+.var-16-bold---lh-16 { font-size: var(--var-16-bold---lh-16); line-height: 1; font-weight: 700; }
+.var-16-regular---lh-10 { font-size: var(--var-16-regular---lh-10); line-height: 1.375; font-weight: 400; }
+.var-15-medium { font-size: var(--var-15-medium); line-height: 1.066667; font-weight: 500; }
+.var-15-regular---lh-16 { font-size: var(--var-15-regular---lh-16); line-height: 0; font-weight: 400; }
+.var-15-regular---lh-40 { font-size: var(--var-15-regular---lh-40); line-height: 2.666667; font-weight: 400; }
+.var-15-bold---lh-40 { font-size: var(--var-15-bold---lh-40); line-height: 2.666667; font-weight: 700; }
+.var-15-bold---lh-16 { font-size: var(--var-15-bold---lh-16); line-height: 1.066667; font-weight: 700; }
+.var-15-regular---lh-15 { font-size: var(--var-15-regular---lh-15); line-height: 1; font-weight: 400; }
+.var-15-regular---lh-45 { font-size: var(--var-15-regular---lh-45); line-height: 3; font-weight: 400; }
+.var-15-bold---lh-15 { font-size: var(--var-15-bold---lh-15); line-height: 1; font-weight: 700; }
+.var-14-bold---lh-auto { font-size: var(--var-14-bold---lh-auto); line-height: 0; font-weight: 700; }
+.var-14-medium---lh-16 { font-size: var(--var-14-medium---lh-16); line-height: 1.142857; font-weight: 500; }
+.var-14-regular---lh-24 { font-size: var(--var-14-regular---lh-24); line-height: 1.714286; font-weight: 400; }
+.var-14-medium---lh-16---ls-0- { font-size: var(--var-14-medium---lh-16---ls-0-); line-height: 1.142857; font-weight: 500; }
+.var-14-regular---lh-22 { font-size: var(--var-14-regular---lh-22); line-height: 1.571429; font-weight: 400; }
+.var-14-medium---lh-20 { font-size: var(--var-14-medium---lh-20); line-height: 1.428571; font-weight: 500; }
+.var-14-regular---lh-30 { font-size: var(--var-14-regular---lh-30); line-height: 2.142857; font-weight: 400; }
+.var-14-regular---lh-16 { font-size: var(--var-14-regular---lh-16); line-height: 1.142857; font-weight: 400; }
+.var-14-bold---lh-24 { font-size: var(--var-14-bold---lh-24); line-height: 1.714286; font-weight: 700; }
+.var-14-bold---lh-20 { font-size: var(--var-14-bold---lh-20); line-height: 1.428571; font-weight: 700; }
+.var-14-bold---lh-16 { font-size: var(--var-14-bold---lh-16); line-height: 1.142857; font-weight: 700; }
+.var-14-regular---lh-15 { font-size: var(--var-14-regular---lh-15); line-height: 1.071429; font-weight: 400; }
+.var-14-bold---lh-auto---ls-0- { font-size: var(--var-14-bold---lh-auto---ls-0-); line-height: 0; font-weight: 700; }
+.var-13-regular---lh-22 { font-size: var(--var-13-regular---lh-22); line-height: 1.692308; font-weight: 400; }
+.var-13-regular---lh-16 { font-size: var(--var-13-regular---lh-16); line-height: 1.230769; font-weight: 400; }
+.var-13-medium { font-size: var(--var-13-medium); line-height: 1.230769; font-weight: 500; }
+.var-12-regular---lh-16 { font-size: var(--var-12-regular---lh-16); line-height: 1.333333; font-weight: 400; }
+.var-12-regular---lh-18 { font-size: var(--var-12-regular---lh-18); line-height: 1.5; font-weight: 400; }
+.var-12-bold { font-size: var(--var-12-bold); line-height: 1.166667; font-weight: 700; }
+.var-11-medium { font-size: var(--var-11-medium); line-height: 1.454545; font-weight: 500; }
+.var-10-medium { font-size: var(--var-10-medium); line-height: 0; font-weight: 500; }
+.var-9-bold { font-size: var(--var-9-bold); line-height: 0; font-weight: 700; }
